@@ -7,6 +7,13 @@ movieController.get('/create', (req,res)=>{
   res.render('create');
 });
 
+movieController.post('/create', (req,res)=>{
+
+    const newMovie = req.body
+
+    res.end();
+});
+
 movieController.get('/:movieId/details', (req,res)=>{
   
   const movieId = req.params.movieId;
@@ -16,7 +23,7 @@ movieController.get('/:movieId/details', (req,res)=>{
   
   console.log(movie);
 
-  res.render('details');
+  res.render('details', { movie });
 });
 
 
