@@ -1,6 +1,6 @@
 export default [
   {
-    id: 1,
+    id: '1',
     title: "Jungle Cruise",
     genre: "Adventure",
     description:
@@ -9,7 +9,7 @@ export default [
     },
 
   {
-    id: 2,
+    id: '2',
     title: 'Man of steel',
     genre: "Sci-fi",
     description: 'An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth. Kal-El, son of Jor-El and Lara, is sent to Earth after his home planet Krypton leads to a complete incineration.',
