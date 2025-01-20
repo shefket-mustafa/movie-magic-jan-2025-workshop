@@ -22,5 +22,16 @@ export default [
     year: '2013',
     rating: '7.1',
     category: 'movie'
+  },
+  {
+    id: '259c1241-67c2-40aa-940a-2e4e9c8c9aa5',
+    title: 'Avengers: Endgame',
+    category: 'movie',
+    genre: 'Sci-Fi',
+    director: 'Zack Snyder',
+    year: '2022',
+    imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_17/2835276/190425-thor-avengers-endgame-ew-339p.jpg',
+    rating: '5',
+    description: 'This movie very Niiceee.\r\n-Borat'
   }
 ];
