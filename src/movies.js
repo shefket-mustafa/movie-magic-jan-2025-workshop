@@ -15,7 +15,7 @@ export default [
   {
     id: '2',
     title: 'Man of steel',
-    genre: "Sci-fi",
+    genre: "superhero",
     description: 'An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth. Kal-El, son of Jor-El and Lara, is sent to Earth after his home planet Krypton leads to a complete incineration.',
     imageUrl: 'https://m.media-amazon.com/images/I/71Z4eYO0ErL._AC_UF1000,1000_QL80_.jpg',
     director: 'Zack Snyder',
@@ -27,7 +27,7 @@ export default [
     id: '259c1241-67c2-40aa-940a-2e4e9c8c9aa5',
     title: 'Avengers: Endgame',
     category: 'movie',
-    genre: 'Sci-Fi',
+    genre: 'superhero',
     director: 'Zack Snyder',
     year: '2022',
     imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_17/2835276/190425-thor-avengers-endgame-ew-339p.jpg',
