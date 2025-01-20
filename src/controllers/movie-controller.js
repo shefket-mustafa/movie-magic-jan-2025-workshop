@@ -22,6 +22,7 @@ movieController.get('/:movieId/details', (req,res)=>{
   console.log(movieId);
   //TODO Get movie data for movie id
   const movie = movieService.findOne(movieId);
+  movie.rating
   
   console.log(movie);
 

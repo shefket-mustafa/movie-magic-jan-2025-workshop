@@ -8,7 +8,7 @@ export default [
     imageUrl: 'https://d23.com/app/uploads/2015/07/tokyo-disneyland-jungle-cruise-feat-0-780x440-1440464914.png',
     director: 'George Bushan',
     year: '2022',
-    rating: '6.9',
+    rating: 6.9,
     category: 'movie'
     },
 
@@ -20,7 +20,7 @@ export default [
     imageUrl: 'https://m.media-amazon.com/images/I/71Z4eYO0ErL._AC_UF1000,1000_QL80_.jpg',
     director: 'Zack Snyder',
     year: '2013',
-    rating: '7.1',
+    rating: 7.1,
     category: 'movie'
   },
   {
@@ -31,7 +31,7 @@ export default [
     director: 'Zack Snyder',
     year: '2022',
     imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_17/2835276/190425-thor-avengers-endgame-ew-339p.jpg',
-    rating: '5',
+    rating: 5,
     description: 'This movie very Niiceee.\r\n-Borat'
   }
 ];
