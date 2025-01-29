@@ -14,9 +14,8 @@ movieController.get("/create",  (req, res) => {
   res.render("create");
 });
 
-movieController.post('/create', (req,res)=>{
-
-    const newMovie = req.body
+movieController.post("/create", async (req, res) => {
+  const newMovie = req.body;
 
   await movieService.create(newMovie);
 
