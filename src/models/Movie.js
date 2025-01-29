@@ -15,4 +15,5 @@ const movieSchema = new Schema({
 //create model
   const Movie = model('Movie', movieSchema);
 
+  //Export model
   export default Movie;
