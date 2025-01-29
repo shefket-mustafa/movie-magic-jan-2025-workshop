@@ -24,15 +24,10 @@ movieController.post('/create', (req,res)=>{
     res.redirect('/');
 });
 
-movieController.get('/:movieId/details', (req,res)=>{
+movieController.get('/:movieId/details', async (req,res)=>{
   
   const movieId = req.params.movieId;
-  console.log(movieId);
-  //TODO Get movie data for movie id
-  const movie = movieService.findOne(movieId);
-  movie.rating
-  
-  console.log(movie);
+  const movie = await movieService.getOne(movieId);
 
   res.render('details', { movie });
 });
