@@ -1,4 +1,5 @@
 import { Router } from 'express';
+
 import homeController from './controllers/home-controller.js';
 import movieController from './controllers/movie-controller.js';
 import castController from './controllers/cast-controller.js';
@@ -9,5 +10,8 @@ routes.use(homeController);
 routes.use('/movies', movieController);
 routes.use('/casts', castController);
 
-export default routes;
+routes.get('*', (req, res) => {
+    res.render('404');
+});
 
+export default routes;
