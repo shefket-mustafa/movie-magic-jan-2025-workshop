@@ -62,6 +62,16 @@ movieController.get("/:movieId/delete", async (req, res) => {
   res.redirect("/");
 });
 
+movieController.post('/:movieId/edit', async (req,res) => {
+    const movieData = req.body;
+    const movieId = req.params.movieId;
+
+    //TODO check if cretor
+       await movieService.update(movieId, movieData);
+
+       res.redirect(`/movies/${movieId}/details`);
+});
+
 function getCategoriesViewData(category){
     const categoriesMap = {
         "tv-show": 'TV SHOW' ,
