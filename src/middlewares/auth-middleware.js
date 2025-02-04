@@ -3,8 +3,7 @@ import jwt from 'jsonwebtoken';
 const SECRET = process.env.JWT_SECRET || 'BASICSECRET';
 
 export const authMiddleware = (req, res, next) => {
- 
-    console.log(req.url);
+
 
     //Get token
     const token = req.cookies['auth'];
@@ -19,6 +18,7 @@ export const authMiddleware = (req, res, next) => {
 
             //Attach decoded token to request
             req.user = decodedToken;
+            res.locals.user = decodedToken; 
 
             next();
         }catch(err){
